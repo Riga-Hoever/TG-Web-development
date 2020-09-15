@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .square_1 {
+                    position: relative;
+                    background-color: red;
+                    width:150px;
+                    height:150px;
+                    margin-top: 150px;
+                    margin-left: 150px;
+                    transform: rotate(+20deg);
+
+                      }
+
+            .square_1::before {
+
+
+                    position: absolute;
+                    width:150px;
+                    height:150px;
+                    content:"";
+                    background-color: red;
+                    transform:rotate(40deg);
+
+            }
+            .square_1::after {
+
+
+position: absolute;
+width:150px;
+height:150px;
+content:"";
+background-color: red;
+transform:rotate(160deg);
+
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="square_1"></div>
+    
+</body>
+</html>
