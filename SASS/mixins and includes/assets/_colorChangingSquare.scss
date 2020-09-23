@@ -1,0 +1,9 @@
+@import "../assets/colors";
+
+.colorChangingSquare{
+width: 100px;
+height:100px;
+// justify-content: end;
+background: $background-color;
+// display: flex;
+}
