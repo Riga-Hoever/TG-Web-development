@@ -1,0 +1,231 @@
+/* .contianer { 
+    position: relative;
+justify-content: space-around;
+left: 30px;
+width: fit-content;
+height: fit-content;
+
+
+} */
+
+.container1 {
+display: flex;
+justify-content: flex-end;
+width: 100%;
+height: auto;
+position: fixed;
+background-color: rgba(255, 255, 255, 0.527);
+color: black;
+z-index:1;
+}
+
+.button {
+width: auto;
+height:auto;
+margin-right: 20px;
+
+
+
+}
+
+
+.container2 {
+top: 500px;
+width:100%;
+height:300px;
+display: flex;
+justify-content: flex-end;
+background-image: url(/cooking.jpg);
+background-size: cover;
+
+
+
+}   
+.buy {
+    border-style: solid;
+    border-color: white;
+    color: white;
+    align-items: flex-start;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.show {
+
+    align-items: flex-start;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+.cooking {
+    width: 30%;
+    position: absolute;
+    margin-right: 250px;
+    margin-top:50px;
+}
+.container3{
+
+display:flex;
+justify-content: center;
+
+}
+
+.container4 {
+
+
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height:400px;
+top:600px;
+justify-content: space-evenly;
+
+}
+.image1 {
+height: 100px;
+width:100px;
+display: flex;
+justify-content: center;
+
+
+
+}
+.pasta1 {
+
+border-style: solid;
+font-size: x-small;
+border-color: white;
+width:150px;
+height: 280px;
+display: flex;
+justify-content: center;
+position: relative ;
+
+
+
+
+
+}
+h2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.pasta_text {
+
+
+flex-wrap: wrap;
+position: absolute;
+margin-top: 105px;
+
+
+}
+
+.price1 {
+
+margin-left: 90px;
+}
+.container5 {
+
+    display:flex;
+    justify-content: center;
+    
+}
+
+.container6 {
+
+
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.sub_container1 {
+
+width: 60%;
+display: flex;
+flex-direction: row;
+margin-right: 15px;
+justify-content: space-between;
+flex-wrap: wrap;
+min-width: 40%;
+
+
+}
+.sub_container2 {
+
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    justify-content: space-between;
+  
+    
+    }
+body {
+
+background-color: black;
+width: 100%;
+height: 800px;
+color: white;
+
+
+
+}
+
+.menu_items{
+display: flex;
+
+border-style: solid;
+font-size: x-small;
+border-color: white;
+width:200px;
+height: 60px;
+
+
+
+
+}
+.menu_items1{
+    display: flex;
+    border-style: solid;
+    font-size: x-small;
+    border-color: white;
+    width:200px;
+    height: 60px;
+    
+    
+    
+    
+    }
+    .menu_items2{
+        display: flex;
+        border-style: solid;
+        font-size: x-small;
+        border-color: white;
+        width:200px;
+        height: 60px;
+        
+        
+        
+        
+        }
+        .menu_items3{
+            display: flex;
+            border-style: solid;
+            font-size: x-small;
+            border-color: white;
+            width:200px;
+            height: 60px;
+            
+            
+            
+            
+            }
