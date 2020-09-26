@@ -1,0 +1,25 @@
+@import "../assets/colors";
+
+.colorChangingSquare{
+width: 100px;
+height:100px;
+background: $background-color;
+
+}
+@mixin style-button($color, $bgcolor, $hover-color) {
+    color: $color;
+    background-color: $bgcolor;
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+  
+//   @mixin transition-div($initial-color, $final-color, $duration) {
+//     background-color: $initial-color;
+//     transition-property: background-color;
+//     transition-duration: $duration;
+//     &:hover {
+//       background-color: $final-color;
+//       transition-duration: $duration;
+//     }
+//   }
