@@ -1,0 +1,72 @@
+body{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;
+}
+
+h2{
+
+color: #4B86CB;
+text-align: center;
+
+}
+
+.container_all {
+
+display: inline-flex;
+ 
+}
+table,
+td,
+th {
+  padding-left: 1rem;
+  padding-right: 10rem;
+  
+  
+}
+
+.navigation{
+    display: inline-block;
+    text-align: center;
+    margin-left: 2rem;
+    background-color: #4B86CB;
+    color: white;
+    width: 15rem;
+    height:40rem;
+
+}
+.members {
+    position: absolute;
+    display: inline;
+    justify-content: center;
+    margin-left:20rem;
+    width: 40rem;
+    
+
+}
+
+.flex{
+    
+    position: absolute;
+    margin-top: 15rem;
+    display: inline;
+    justify-content: center;
+    margin-left:25rem;
+}
+
+
+
+input {
+    flex-wrap: wrap;
+    width: fit-content;
+    border: none;
+    border-radius: 2px;
+    background-color: #C5DEEA;
+    display: block;
+    
+}
+.gray_bg {
+
+    background-color: #a0aec0;
+    
+}
