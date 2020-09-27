@@ -13,25 +13,25 @@
 
     <div class="container">
         <div class="container1">
-            <div class="button">Home</div>
-            <div class="button">Menu</div>
-            <div class="button">Contact</div>
+            <div class="button"> <a href="#header">Home</a></div>
+            <div class="button"><a href="#main">Menu</a></div>
+            <div class="button"><a href="#footer">Contact</a></div>
         </div>
-        <Header>
+        <Header id="header">
             <div class="container2">
 
                 <div class="cooking">
                     <h2>Cooking</h2> <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br></span> <br>
-                    <span class="buy">Buy</span> <span class="show">Show more</span>
+                    <span class="buy"><a href="#food">Buy</a></span> <span class="show"><a href="#main">Show more</a></span>
                 </div>
 
             </div>
         </Header>
 
-        <h2>Populaire gerechten</h2>
+        <h1>Populaire gerechten</h1>
 
 
-        <div class="container4">
+        <div id="food" class="container4">
             <div class="pasta1"> <img class="image1" src="/dish.jpg" alt="">
 
                 <div class="pasta_text"><span><b>Pasta</b></span> <span class="price1">8,99</span>
@@ -70,11 +70,10 @@
 
     </div>
 
-    <main>
-        <h2>Menu</h2>
+    <main id="main">
+        <h1>Menu</h1>
         <div class="container6">
-            <div></div>
-            <div><img src="/chef1.webp" alt="chef"></div>
+             <div><img src="/chef1.webp" alt="chef"></div>
             <div class="sub_container1">
                 <div class="menu_items1"><span class="menu_item_title"><b>Pasta</b></span> <span>8,99</span>
                     <p>Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit. <br>
@@ -128,27 +127,27 @@
                         Aenean commodo ligula eget dolor. </p>
                 </div>
 
-
+            </div>
 
             </div>
 
 
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="container7">
             <div class="contact">
-                <p> Techgrounds </p>
-                <p>Osdorpplein 16 </p>
-                <p> 1068 EL Amsterdam</p>
+                <p><h3>Contact</h3></p>
+                <p> Osdorpplein 16, 1068 EL Amsterdam</p>
+                <p> Tel: 020-12345678 </p>
                 <p>Openingstijden: van ma t/m vr 10:00 tot 22:00</p>
             </div>
 
             <div class="navigation">
                 <p>Navigaties</p>
-                <p>Home</p>
-                <p>Menu</p>
-                <p>Contact</p>
+                <p><a href="#header">Home</a></p>
+                <p><a href="#main">Menu</a></p>
+                <p><a href="#footer">Contac</a></p>
             </div>
 
         </div>
