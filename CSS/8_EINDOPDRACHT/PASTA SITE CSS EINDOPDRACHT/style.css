@@ -1,12 +1,6 @@
-/* .contianer { 
-    position: relative;
-justify-content: space-around;
-left: 30px;
-width: fit-content;
-height: fit-content;
+/* Beware! Site is gemaakt op 1920 x 1080 plus ingezoomd op 175% =__= */
 
 
-} */
 html{
 
     scroll-behavior: smooth;
@@ -44,7 +38,7 @@ a:link {
     color: #000000;
     }
     a:visited {
-    color: #494343;
+    color: #ffffff;
     }
     a:hover {
     color: #008d18;
@@ -244,5 +238,16 @@ min-width: 40%;
 
            }
          
+           @media screen and (max-width: 700px) {
+            .cook img {
+                
+                    display: none;
+                    width: 100%;
 
-     
+              }
+              .container6 {
+
+                margin-top:500px;
+              }
+            
+           }
