@@ -22,17 +22,16 @@ z-index:1;
 .button {
 width: auto;
 height:auto;
-margin-right: 20px;
+margin-right: 1.25rem
 
 
 
 }
 
-
 .container2 {
-top: 500px;
+top: 31.25rem;
 width:100%;
-height:300px;
+height:18.75rem;
 display: flex;
 justify-content: flex-end;
 background-image: url(/cooking.jpg);
@@ -46,11 +45,11 @@ background-size: cover;
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     align-items: flex-start;
-    margin-left: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 100px;
-    height: 30px;
+    margin-left: 1.25rem;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    width: 6.25rem;
+    height: 31.875rem;
     
 }
 .buy:hover {
@@ -68,9 +67,9 @@ background-size: cover;
 .show {
 
     align-items: flex-start;
-    margin-right: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-right: 2.5rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
     border-style: solid;
     border-color: white;
     color: white;
@@ -82,8 +81,8 @@ background-size: cover;
     color:rgb(255, 255, 255);
     width: 30%;
     position: absolute;
-    margin-right: 250px;
-    margin-top:50px;
+    margin-right: 15.625rem;
+    margin-top:3.125rem;
     
              
 }
@@ -107,8 +106,8 @@ justify-content: space-evenly;
 
 }
 .image1 {
-height: 100px;
-width:100px;
+height:6.25rem;
+width:6.25rem;
 display: flex;
 justify-content: center;
 
@@ -120,8 +119,8 @@ justify-content: center;
 border-style: solid;
 font-size: x-small;
 border-color: white;
-width:150px;
-height: 280px;
+width:9.375rem;
+height: 17.5rem;
 display: flex;
 justify-content: center;
 position: relative ;
@@ -143,7 +142,7 @@ h2 {
 
 flex-wrap: wrap;
 position: absolute;
-margin-top: 105px;
+margin-top: 6.5625rem;
 
 
 }
@@ -173,7 +172,7 @@ margin-left: 90px;
 width: 60%;
 display: flex;
 flex-direction: row;
-margin-right: 15px;
+margin-right: 0.9375rem;
 justify-content: space-between;
 flex-wrap: wrap;
 min-width: 40%;
@@ -185,7 +184,7 @@ body {
 
 background-color: rgb(173, 173, 173);
 width: 100%;
-height: 800px;
+height: 50rem;
 color: rgb(2, 2, 2);
 font-family: 'Lobster', cursive;
 
@@ -199,9 +198,8 @@ display: flex;
 border-style: solid;
 font-size: x-small;
 border-color: white;
-width:200px;
-height: 60px;
-
+width:12.5rem;
+height: 3.75rem;
 
 
 
@@ -211,8 +209,8 @@ height: 60px;
     border-style: solid;
     font-size: x-small;
     border-color: white;
-    width:200px;
-    height: 60px;
+    width:12.5rem;
+    height: 3.75rem;
     
     
     
@@ -223,8 +221,8 @@ height: 60px;
         border-style: solid;
         font-size: x-small;
         border-color: white;
-        width:200px;
-        height: 60px;
+        width:12.5rem;
+        height: 3.75rem
         
         
         
@@ -235,8 +233,8 @@ height: 60px;
             border-style: solid;
             font-size: x-small;
             border-color: white;
-            width:200px;
-            height: 60px;
+            width:12.5rem;
+            height: 3.75rem;
             
             
             
@@ -248,30 +246,26 @@ height: 60px;
                 
                 Flex-wrap:wrap;
                 width: 100%;
-                height:200px;
+                height:12.5rem;
                 background-color: green;
-                top:750px;
+                top:46.875rem;
             }
 
             .contact {
-                margin-top:30px;
+                margin-top:1.875rem;
                 font-size: small;
-                width: 400px;
-                height: 200px;
-                margin-left: 200px;
-
-
-
-
+                width: 25rem;
+                height: 12.5rem;
+                margin-left: 12.5rem;
 
             }
            .navigation{
 
-            margin-top:30px;
+            margin-top:1.875rem;
             font-size:  small;
-            margin-right: 150px;
-            height: 400px;
-            margin-left: 200px;
+            margin-right: 9.375rem;
+            height: 25rem;
+            margin-left: 12.5rem;
 
            }
          

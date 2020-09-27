@@ -36,35 +36,74 @@ th {
 
 }
 .members {
+    margin-top: 5rem;
     position: absolute;
     display: inline;
     justify-content: center;
     margin-left:20rem;
-    width: 40rem;
+    width: 30rem;
     
 
+}
+.member{
+
+    margin-top: 1rem;
+    margin-left: 21rem;
+}
+.additional {
+
+    position: absolute;
+    display: inline;
+    justify-content: center;
+    margin-left:22rem;
+    margin-top: 15rem;
+    width: 40rem;
+    
 }
 
 .flex{
     
     position: absolute;
-    margin-top: 15rem;
-    display: inline;
+    margin-top: 20rem;
     justify-content: center;
-    margin-left:25rem;
+    margin-left:20rem;
 }
 
 
 
 input {
+        
     flex-wrap: wrap;
-    width: fit-content;
     border: none;
     border-radius: 2px;
     background-color: #C5DEEA;
     display: block;
     
-}
+      
+    }
+
+    .container {
+        display: inline-flex;
+        
+    
+        }
+    
+ .spacing {
+        margin-right:0.5rem;
+        
+            }
+.container2 {
+     display: inline-flex;
+        
+        
+            
+            }
+        
+        .spacing2 {
+        
+        margin-right:0.5rem;
+        }
+
 .gray_bg {
 
     background-color: #a0aec0;
