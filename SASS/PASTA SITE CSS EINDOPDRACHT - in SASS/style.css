@@ -121,6 +121,10 @@ body {
   color: #00a700;
 }
 
+a {
+  text-decoration: none;
+}
+
 .show:hover {
   border-color: #720000;
   color: #00a700;
