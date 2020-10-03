@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //Opdracht 12_Strings // 
+
+        // let myString1 = "Riga";
+        // let myString2 = "Hoever";
+        // console.log(myString1 + myString2);
+
+        //Wat merk je op t.o.v het uitprinten van numbers?// voor namen moet je aanhalingstekens gebruiken en bij nummers niet? 
+
+
+        // let myString3 = "3";
+        // var R = "2";
+        // onst myString3 + R = combinedText;
+        // console.log(combinedText);
+
+        // //Opdracht 13 // 
+        // let myString = 3;
+        // let number = 3;
+        // let combinedText = myString + number;
+        // console.log(combinedText);
+
+        //Opdracht 14 //  
+
+        //Opdracht 15 // Antwoord textanother text
+
+        // let text = "text";
+
+        // console.log("text"+ "another text");
+
+        //Opdracht 16 // 
+
+//charAt()//
+        const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+        const index = 4;
+
+        console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
+        // expected output: "The character at index 4 is q"
+
+//concat()
+
+const str1 = 'Hello';
+const str2 = 'World';
+
+console.log(str1.concat(' ', str2));
+// expected output: "Hello World"
+
+console.log(str2.concat(', ', str1));
+// expected output: "World, Hello"
+
+
+//slice() // 
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(str.slice(31));
+// expected output: "the lazy dog."
+
+console.log(str.slice(4, 19));
+// expected output: "quick brown fox"
+
+console.log(str.slice(-4));
+// expected output: "dog."
+
+console.log(str.slice(-9, -5));
+// expected output: "lazy"
+
+//split() //
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+const words = str.split(' ');
+console.log(words[3]);
+// expected output: "fox"
+
+const chars = str.split('');
+console.log(chars[8]);
+// expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy);
+// expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+
+//substr() // 
+
+const str = 'Mozilla';
+
+console.log(str.substr(1, 2));
+// expected output: "oz"
+
+console.log(str.substr(2));
+// expected output: "zilla"
+
+    </script>
+
+
+
+
+</body>
+
+</html>
