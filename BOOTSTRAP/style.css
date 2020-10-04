@@ -1,28 +1,33 @@
-.background_gradient1 {
 
-  height: 20px;
-  background-color: #2cbf98; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, hsl(146, 72%, 52%) , hsl(130, 95%, 57%));
-  
-}
-.background_gradient2 {
-
-    height: 30px;
-    background-color: #2cbf98; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, hsl(146, 72%, 52%) , hsl(130, 95%, 57%));
-    margin-top: 5px;
-}
-
-
-  .background_gradient3 {
-
-    height: 500px;
-    background-color: #2cbf98; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, hsl(146, 72%, 52%) , hsl(130, 95%, 57%));
-    margin-top: 15px;
-  }
   .floating {
 
     z-index: 5;
     top:50px;
   }
+  body {
+
+    background-color: #a5d4cc;
+  }
+
+  .align {
+flex-direction: row;
+justify-content: center;
+display: flex;
+
+
+  }
+  .info{
+
+    height:17rem;
+    margin-left: 2rem;
+    margin-top:5rem;
+  }
+.space {
+
+  margin-top: 2rem;
+}
+.space2 {
+
+margin-left: 9rem;
+
+}
