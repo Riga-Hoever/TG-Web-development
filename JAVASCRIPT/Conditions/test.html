@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Opdracht 1-4</h1>
+    <input type="number" name="number" id="number">
+    <button id="btn" onclick="checkNumber()">Button</button>
+    <div>
+       <span id="label"></span>
+    </div>
+    <script>
+function checkNumber() {
+    let x, text;
+         x = document.getElementById("number").value;
+         console.log(x)
+         
+         if (x == 3) {
+            text = "Het ingevoerde getal is gelijk aan 3.";
+         }
+
+         document.getElementById("label").innerHTML = text;
+}
+
+
+
+    </script>
+</body>
+</html>

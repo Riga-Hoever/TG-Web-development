@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Translate months</h1>
+    <input type="number" name="number" id="number">
+    <button onclick="translateMonth()">translate</button>
+    <div id="translatedMonth"></div>
+    <div>
+        <span id="label"></span>
+     </div>
+    <script>
+        function translateMonth() {
+
+            let x = "Het is de maand "
+            inputNumber = document.getElementById("number").value;
+            
+
+            if (inputNumber == 1) {
+                
+                console.log("Januari");
+                output = x + "Januari";
+            }
+
+            else if ( inputNumber == 2) {
+                console.log("Februari");
+                output = x + " Februari";
+
+            }
+
+            else if (inputNumber == 3) {
+                console.log("Maart");
+                output = x + " Maart";
+
+
+            }
+            else if (inputNumber == 4) {
+                console.log("April");
+                output = x + " April";
+
+                   }
+            else if (inputNumber == 5) {
+                console.log("Mei");
+                output = x + " Mei";
+
+            }
+            else if (inputNumber == 6) {
+                console.log("Juni");
+                output = x + " Juni";
+
+            }
+            else if (inputNumber == 7) {
+                console.log("Juli");
+                output = x + "Juli";
+
+                }
+            else if (inputNumber == 8) {
+                console.log("Augustus");
+                output = x + " Augustus";
+
+            }
+            else if (inputNumber == 9) {
+                console.log("September");
+                output = x + " September";
+
+            }
+            else if (inputNumber == 10) {
+                console.log("Oktober");
+                output = x + " Oktober";
+
+            }
+            else if (inputNumber == 11) {
+                console.log("November");
+                output = x + " November";
+
+            }
+            else if (inputNumber == 12) {
+                console.log("December");
+                output = x + " December";
+
+            }
+            else {
+                
+                output = "This is not a month";
+
+
+            }
+           document.getElementById("label").innerHTML = output;
+        }
+        
+    </script>
+</body>
+
+</html>
