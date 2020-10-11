@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let tweet = prompt();
+        let tweetCount = tweet.length;
+        let tweetUnder140 = tweet.slice(0,140);
+        alert("You have written " + tweet.length + "characters, you have " + (tweetCount - 140) + "characters left.");
+        
+    </script>
+</body>
+
+</html>
