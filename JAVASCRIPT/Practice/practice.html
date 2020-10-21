@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+                    //       0  1  2  3   4   5  6    7   8   9
+        let randomNumbers = [1, 2, 5, 7, 44, 23, 11, 33, 42, 99];
+        let randomNumberCount = randomNumbers.length;
+        let num33 = randomNumbers[7];
+
+        //BigInt randomNumberCount = 10;
+        //for(BigInt i = 0; i < randomNumberCount; i++){
+        // BigInt randomNumber = Math.floor(Math.random() * 100);
+        // randomNumbers.push(randomNumber);
+        //}
+
+        let cars = ["Saab", "Volvo", "BMW", "Suzuki", "Ferrari"];
+
+        for (let i = 0; i < randomNumberCount; i++) {
+            // console.log(i);
+            
+            let randomNumber = randomNumbers[i];
+            // console.log(randomNumbers);
+            let car = cars[randomNumber % cars.length];
+            console.log("number: " + i + ", car: " + car + ", random number: "  + randomNumber );
+            
+            // console.log(car);
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,38 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <p id="answer"></p>
-    <button onclick="answer()">click</button>
-<script>
+
+
+  <p id="answer"></p>
+  <button onclick="answer()">click</button>
+  <button onclick="getName()">click me 2</button>
+
+  <script>
 
     let greeting = "Hello world";
     let number = 2;
     let outcome = 2 * 2;
-    let names = ["John","Olly","Mo","Hendrik","Tony"];
-   
-function answer() {
 
-  document.getElementById("answer").innerHTML = greeting;
-  console.log(greeting);
-  console.log(number);  
-  console.log(outcome);
-  
-  if (input= names){
 
-console.log ("Dit is een bekende van ons");
-}
-else {
-  console.log("Onbekend in ons systeem!");
+    function answer() {
 
-  
-}
+      document.getElementById("answer").innerHTML = greeting;
+      console.log(greeting);
+      console.log(number);
+      console.log(outcome);
 
-}
-</script>
+    }
+
+    // function getName() {
+    //   const names = ["John", "Olly", "Mo", "Hendrik","Tony","Irus","Jan","Peter"];
+    //   let inputName = prompt("Wat is je naam?");
+    //   switch (inputName) {
+    //     case names[0]:
+    //     case names[1]:
+    //     case names[2]:
+    //     case names[3]:
+    //     case names[4]:
+    //     case names[5]:
+    //     case names[6]:
+    //     case names[7]:
+    //       alert(`Dit is een bekende van ons ${inputName}`);
+    //       break;
+    //     default:
+    //       alert(`Onbekend in ons systeem, ${inputName}`);
+    //   }
+    // }
+
+    function getName() {
+      const names = ["John", "Olly", "Mo", "Hendrik", "Tony", "Irus", "Jan", "Peter"];
+      let inputName = prompt("Wat is je naam?");
+
+      console.log(inputName);
+      if (inputName == names[0]) {
+        console.log(names[0]);
+        alert(`Dit is een bekende van ons ${inputName}`);
+      }
+
+      else {
+        alert(`Onbekend in ons systeem, ${inputName}`);
+
+      }
+
+    }
+
+
+
+
+
+
+  </script>
 </body>
+
 </html>
